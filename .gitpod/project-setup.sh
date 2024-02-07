@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 cd "$GITPOD_REPO_ROOT" && ddev composer install
 cd "$GITPOD_REPO_ROOT" && ddev auth ssh
 cd "$GITPOD_REPO_ROOT" && ddev pull pantheon -y
